@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+:root {
+  --green: #8cc641;
+  --yellow: #ffe468;
+}
+
+/* Top Bar */
+.topbar {
+  background-color: #ffe468;
+  padding-top: 5px;
+}
+
+.topbar-icon {
+  color: #8cc641;
+  font-size: 18px;
+}
+.top-socialicon {
+  align-items: center;
+}
+
+.contect-icon {
+  color: var(--green);
+  font-size: 20px;
+}
+
+/* Nav Bar */
+
+.logo {
+  color: #ffe468;
+}
+.logo-icon {
+  color: #8cc641;
+}
+
+.menu-border > li {
+}
+
+.menu-border > :hover {
+}
+
+/* Head */
+
+.head {
+  background-image: url(/Gallery/hero.jpg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #ffe468;
+  background-size: 60%;
+  background-position: right;
+}
+
+.head-container {
+  height: 70vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main-heading {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.fill-btn {
+  padding: 15px 45px;
+  background-color: #8cc641;
+  color: white;
+  border-radius: 50px;
+  border: #8cc641;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+.border-btn {
+  padding: 15px 45px;
+  border: 1px solid #8cc641;
+  color: #8cc641;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: transparent;
+  transition: all 0.5s ease;
+}
+
+.fill-btn:hover {
+  background-color: #a6d865;
+  box-shadow: 1px 1px 1px black;
+}
+.border-btn:hover {
+  background-color: var(--green);
+  color: black;
+  box-shadow: 1px 1px 1px;
+}
+
+/* About */
+
+.about-section {
+  margin-top: 200px;
+}
+
+.about-text {
+  background-image: url(/Gallery/about-bg.jpg);
+  width: 756px;
+  z-index: 1;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 150px;
+}
+.about-heading {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.about-img {
+  background-image: url(/Gallery/about-1.jpg);
+  height: 580px;
+  background-size: cover;
+}
+
+/* .Why Choose Us */
+
+.choose-us-img {
+  background-image: url(/Gallery/about-2.jpg);
+  height: 580px;
+  background-size: cover;
+}
+.choose-us-text {
+  background-image: url(/Gallery/about-bg.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 87px;
+  width: 756px;
+  right: 110px;
+}
+
+/* Services */
+
+.services-heading {
+  text-align: center;
+  margin-top: 200px;
+}
+.services-heading > h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.yellow-line {
+  border-bottom: 2px solid var(--yellow);
+  width: 160px;
+  margin: 20px auto;
+}
+
+.card-icon {
+  background-color: var(--yellow);
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border: 15px solid white;
+  transform: rotate(45deg);
+  position: relative;
+  top: 50px;
+  z-index: 1;
+}
+.my-card-body {
+  background-color: var(--yellow);
+}
+.my-card-body > h2 {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quote Form */
+
+.form-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.quote-form {
+  background-color: #ffe468;
+  margin-top: 200px;
+  padding-bottom: 100px;
+  background-image: url(/Gallery/quote.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.form {
+  padding: 50px;
+  margin-top: 60px;
+}
+.form-btn {
+  padding: 15px 227px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 18px;
+}
+
+.na-e-input {
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 16px;
+  padding: 15px 67px 15px 15px;
+}
+.message-input {
+  background-color: #f2f2f2;
+  border: none;
+  margin-top: 18px;
+}
+
+/* /Team Members */
+
+.team {
+  position: relative;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.icon-1 {
+  background-color: var(--green);
+  color: white;
+  border-radius: 100px;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin-top: 100px;
+  display: none;
+}
+
+.icon-1:hover {
+  background-color: #a6d865;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.team-text {
+  text-align: center;
+  position: absolute;
+  background-color: var(--yellow);
+  width: 320px;
+  bottom: 50px;
+  padding-bottom: 0;
+  cursor: pointer;
+  bottom: -40px;
+  right: 46px;
+  transition: all 1s ease;
+  background-image: url(/Gallery/team.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.team-text:hover {
+  height: 416px;
+  bottom: 0;
+}
+
+.team-text:hover .icon-1 {
+  display: block;
+  display: flex;
+}
+
+.team-text:hover > h2 {
+  margin-top: 170px;
+}
+
+.team-text > h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Testimonials */
+
+.testimonials {
+  background-color: var(--yellow);
+background-image: url(/Gallery/testimonial.jpg);
+margin-top: 200px;
+background-size: 1003px;
+    background-repeat: no-repeat;
+
+
+}
+
+.my-carousel{
+  margin-top: 100px;
+  position: relative;
+  padding-bottom: 75px;
+  
+}
+.my-carousel > h2{
+  font-size: 45px;
+  font-weight: 800;
+  color: black;
+  
+}
+.carousel-icon{
+  position: absolute;
+  background-color: var(--green);
+  border-radius: 100%;
+      bottom: -40px;
+          right: 520px;
+}
+.carousel-icon1{
+   position: absolute;
+  background-color: var(--green);
+  border-radius: 100%;
+      bottom: -40px;
+}
+
+.icon-2{
+  
+}
+.client-img{
+  height: 60px;
+  border: 4px solid var(--green);
+}
+
+
+/* Blog */
+
+
+.blog-card-text{
+  background-color: var(--yellow);
+  position: relative;
+      padding-bottom: 0;
+    padding-top: 0;
+    height: 61px;
+}
+
+.blog-text{
+      margin-top: 10px;
+      font-weight: 800;
+      
+ 
+}
+.date{
+  background-color: var(--green);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: relative;
+      bottom: 25px;
+    right: 16px;
+    
+}
+.date > p{
+  font-size: 15px;
+}
+.hr-line{
+  border-bottom: 1px solid var(--green);
+      width: 416px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.yellow-calendar{
+  color: var(--yellow);
+  font-size: 20px;
+}
