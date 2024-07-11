@@ -46,7 +46,7 @@ body{
 /* Head */
 
 .head {
-  background-image: url(/Gallery/hero.jpg);
+  background-image: url(/hero.jpg);
   height: 70vh;
   background-repeat: no-repeat;
   background-position: top;
@@ -104,7 +104,7 @@ body{
 }
 
 .about-text {
-  background-image: url(/Gallery/about-bg.jpg);
+  background-image: url(/about-bg.jpg);
   width: 756px;
   z-index: 1;
   position: relative;
@@ -118,7 +118,7 @@ body{
   margin-bottom: 20px;
 }
 .about-img {
-  background-image: url(/Gallery/about-1.jpg);
+  background-image: url(/about-1.jpg);
   height: 580px;
   background-size: cover;
 }
@@ -126,12 +126,12 @@ body{
 /* .Why Choose Us */
 
 .choose-us-img {
-  background-image: url(/Gallery/about-2.jpg);
+  background-image: url(/about-2.jpg);
   height: 580px;
   background-size: cover;
 }
 .choose-us-text {
-  background-image: url(/Gallery/about-bg.jpg);
+  background-image: url(/about-bg.jpg);
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@ body{
   background-color: #ffe468;
   margin-top: 200px;
   padding-bottom: 100px;
-  background-image: url(/Gallery/quote.jpg);
+  background-image: url(/quote.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -263,7 +263,7 @@ body{
   bottom: -40px;
   right: 46px;
   transition: all 1s ease;
-  background-image: url(/Gallery/team.jpg);
+  background-image: url(/team.jpg);
   background-position: bottom;
   background-size: cover;
 }
@@ -291,7 +291,7 @@ body{
 
 .testimonials {
   background-color: var(--yellow);
-background-image: url(/Gallery/testimonial.jpg);
+background-image: url(/testimonial.jpg);
 margin-top: 200px;
 background-size: 1003px;
     background-repeat: no-repeat;
